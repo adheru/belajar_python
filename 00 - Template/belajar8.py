@@ -104,7 +104,7 @@ def tambah_buku():
 def borow_book():
     success=False
     while(True):
-        firstName=input("Masukkan nama depan peminjam: ")
+        firstName=input("First Name: ")
         if firstName.isalpha():
             break
         print("Masukkan huruf A-Z")
